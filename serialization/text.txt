@@ -1,0 +1,10 @@
+***********code flow
+models.py
+serializers.py
+myapp.py (third party)
+views.py, urls.py
+
+*********logic flow
+myapp.py
+urls.py
+views.py, model, mserializers.py
