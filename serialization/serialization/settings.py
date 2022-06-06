@@ -79,6 +79,7 @@ WSGI_APPLICATION = 'serialization.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
+        'version': '3.9.0',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
