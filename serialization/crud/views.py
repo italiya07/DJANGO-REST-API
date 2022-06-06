@@ -1,7 +1,7 @@
 from urllib import response
 from django.shortcuts import render
 import io
-from elastic_transport import Serializer
+# from elastic_transport import Serializer
 from numpy import fromregex
 from rest_framework.parsers import JSONParser
 from rest_framework.renderers import JSONRenderer
