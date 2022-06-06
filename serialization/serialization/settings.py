@@ -76,13 +76,15 @@ WSGI_APPLICATION = 'serialization.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'version': '3.9.0',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'testAPI',
+        'USER' : 'postgres',
+        'HOST' : 'localhost',
+        'PASSWORD' : '2526',
+    }
+}
 
 
 # Password validation
