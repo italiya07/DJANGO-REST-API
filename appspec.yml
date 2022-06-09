@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: serialization/manage.py
+  - source: serialization/wsgi.py
     destination: /
 #     timeout: 3600
 #     runas: root
