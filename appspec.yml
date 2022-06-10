@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: serialization/
-    destination: /home/
+    destination: /var/testpr
     #123456
 #     timeout: 3600
 #     runas: root
