@@ -3,6 +3,7 @@ os: linux
 files:
   - source: serialization/manage.py
     destination: /
+    #123456
 #     timeout: 3600
 #     runas: root
 #     destination: /webapps/Config
