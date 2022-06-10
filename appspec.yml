@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: serialization/manage.py
-    destination: /
+  - source: serialization
+    destination: /home/
     #123456
 #     timeout: 3600
 #     runas: root
