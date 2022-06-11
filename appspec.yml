@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/testpr
+    destination: /home/ec2-user/
     #123456
 #     timeout: 3600
 #     runas: root
