@@ -1,0 +1,28 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /home/ec2-user
+    #123456
+#     timeout: 3600
+#     runas: root
+#     destination: /webapps/Config
+#   - source: source
+#     destination: /webapps/myApp
+# hooks:
+#   BeforeInstall:
+#     - location: /requirements.txt
+#       timeout: 300
+#       runas: root
+#   AfterInstall:
+#     - location: serialization/manage.py runserver
+#       timeout: 180
+#       runas: root
+#   ApplicationStart:
+#     - location: serialization/manage.py runserver
+#       timeout: 3600
+#       runas: root
+#   ValidateService:
+#     - location: Scripts/MonitorService.sh
+#       timeout: 3600
+#       runas: codedeployuser
