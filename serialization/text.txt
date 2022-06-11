@@ -8,3 +8,23 @@ views.py, urls.py
 myapp.py
 urls.py
 views.py, model, mserializers.py
+
+gunicorn*********
+
+[Unit]
+Description=gunicorn daemon
+Requires=gunicorn.socket
+After=network.target
+
+[Service]
+User=linux
+Group=www-data
+WorkingDirectory=/var/testpr/serialization
+ExecStart=/var/testpr/env/bin/gunicorn \
+          --access-logfile - \
+          --workers 3 \
+          --bind unix:/run/gunicorn.sock \
+          serialization.wsgi:application
+
+[Install]
+WantedBy=multi-user.target 
